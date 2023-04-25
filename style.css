@@ -1,0 +1,113 @@
+/* Layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.container {}
+
+aside {
+    background-color: aliceblue;
+    border-radius: 1vh;
+}
+
+main {}
+
+main h2 {}
+
+.gallery {
+    overflow: hidden;
+}
+
+.gallery img {}
+
+/* Text styles */
+
+h1,
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Image styles */
+
+img.left {
+    float: left;
+    margin-right: 1em;
+}
+
+img.right {
+    margin-left: 1em;
+}
+
+/* Navbar styles */
+
+header {
+    background-color: #0552c6;
+    color: #fff;
+    padding: 1em;
+    height: 40px;
+
+}
+
+header h1 {}
+
+header nav {}
+
+nav ul {}
+
+nav li {}
+
+nav a {
+    color: #fff;
+
+}
+
+/* Form styles */
+
+form {
+    margin-bottom: 1em;
+}
+
+label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #444;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+footer p {
+    margin: 0;
+}
