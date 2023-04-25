@@ -6,7 +6,6 @@ body {
     font-size: 1em; 
 }
 .container {
-  margin-top: 80px;  
   width: 100%;
   clear: both;
 }
@@ -69,7 +68,7 @@ header {
   color: #fff;
   padding: 1em;
   height: 40px;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
