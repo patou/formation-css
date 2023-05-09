@@ -6,8 +6,9 @@ body {
     font-size: 1em;
     display: grid;
     grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 20px 3fr;
-    grid-template-areas: "header header header" "aside . main" "footer footer footer";
+    grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
+    grid-template-areas: "header header" "aside main" "footer footer";
     align-items: self-start;
 }
 
